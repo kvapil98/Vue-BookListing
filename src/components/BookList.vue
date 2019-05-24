@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import bookItem from './BookItem';
+import BookItem from './BookItem';
 
 export default {
     name: 'Booklist',
     components: {
-        bookItem,
+        BookItem,
     },
     data() {
         return {
